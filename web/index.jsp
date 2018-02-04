@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>New Region</title>
   </head>
   <body>
-  $END$
+   <h1>New Region</h1>
+  <form action=""regions" method="post">
+   <fielset>
+     <input type="hidden" name="action" value="create"/>
+     <jsp:include page="_region_fieldset.jsp"/>
+   </fielset>
+   </form>
   </body>
 </html>
