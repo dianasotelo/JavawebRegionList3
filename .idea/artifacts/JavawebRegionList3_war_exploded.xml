@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavawebRegionList3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavawebRegionList3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavawebRegionList3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavawebRegionList3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
